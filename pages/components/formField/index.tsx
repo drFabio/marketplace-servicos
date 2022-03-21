@@ -27,3 +27,4 @@ export const FormField: FC<FormFieldProps> = ({
     </label>
   );
 };
+export default FormField;

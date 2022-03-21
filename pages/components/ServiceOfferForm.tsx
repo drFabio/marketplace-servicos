@@ -58,3 +58,4 @@ export const ServiceOfferForm: FC = () => {
     </section>
   );
 };
+export default ServiceOfferForm;
