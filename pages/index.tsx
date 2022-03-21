@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Marketplace de servicos</h1>
+        <Link href="/services/offer">
+          <a>Crie sua oferta</a>
+        </Link>
       </main>
     </div>
   );
