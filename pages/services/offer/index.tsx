@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { ServiceOfferForm } from "../../components/ServiceOfferForm";
+import { ServiceOfferForm } from "../../../components/ServiceOfferForm";
 
 const ServicesOfferPage: NextPage = () => {
   return (
